@@ -24,6 +24,7 @@ export class IonInputMaskComponent implements ControlValueAccessor, OnInit {
   @Input() disabled = false;
 
   @Input() mask;
+  @Input() formControlName;
   @Input() specialCharacters;
   @Input() patterns;
   @Input() dropSpecialCharacters;

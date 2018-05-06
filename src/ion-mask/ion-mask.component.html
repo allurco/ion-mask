@@ -11,6 +11,7 @@
       (ionBlur)="onBlur($event)"
       (change)="onChange($event)"
       [(ngModel)]="valueIonInput"
+      [formControlName]="formControlName"
       [attr.clearInput]="getAttrClearInput()"
       [placeholder]="getAttrPlaceholder()">
   </ion-input>
